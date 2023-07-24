@@ -11,7 +11,6 @@ Make sure you have the following installed on your system:
 - matplotlib
 - numpy
 
-You can install TensorFlow using pip:
 
 ## Dataset
 The MNIST dataset contains grayscale images of handwritten digits (0 to 9). It consists of a training set and a test set, with 60,000 and 10,000 images, respectively. Each image is a 28x28 pixel array.
@@ -19,7 +18,7 @@ The MNIST dataset contains grayscale images of handwritten digits (0 to 9). It c
 ## Getting Started
 1. Clone the repository to your local machine.
 
-2. Install the required libraries by running:
+2. Install the required libraries by running: pip install -r requirements.txt
 
 3. Execute the Python script to train and test the CNN model on the MNIST dataset:
 
